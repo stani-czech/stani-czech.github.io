@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <title>Test</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            font-size: 2em;
-        }
-    </style>
-</head>
-<body>
-    Succes!!!
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+                }
+            nav {
+              background: #333;
+              padding: 10px;
+                }
+            nav a {
+              color: white;
+              text-decoration: none;
+              margin: 0 15px;
+                }
+            nav a:hover {
+              text-decoration: underline;
+                }
+        </style>
+    </head>
+        
+    <body>
+        <nav>
+            <a href="#home">Domů</a>
+            <a href="#o-nas">O nás</a>
+            <a href="#sluzby">Služby</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    
+        <h1 id="home">Vítejte na stránce</h1>
+        <p id="o-me">Text o mě...</p>
+        <p id="sluzby">Mé služby...</p>
+        <p id="kontakt">Kontaktujte mě...</p>
+    </body>
 </html>
