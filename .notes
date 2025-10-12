@@ -1,0 +1,2 @@
+jupyter nbconvert --to script notebook.ipynb
+jupyter nbconvert --to html notebook.ipynb
